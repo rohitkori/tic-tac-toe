@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background:rgb(12, 176, 111);
+}
+.main-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: max(30px, 6vmin);
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-playGround{
+  box-shadow: 0 0 20px 0 rgba(5, 16, 59, 0.3);
+    background: linear-gradient(40deg,
+            transparent 10%,
+            rgba(5, 16, 59, 0.16) 60%,
+            transparent 100%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1.5px solid rgba(255, 255, 255, 0.08);
+  margin: auto;
+  width: 50vw;
+  height: 50vh;
 }
