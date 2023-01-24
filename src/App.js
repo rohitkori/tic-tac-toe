@@ -338,7 +338,7 @@ function App() {
   return (
     <div className="main-container">
       <div className="main-title">
-        <h1>Tic-Tac-Toc</h1>
+        <h1>Tic-Tac-Toe</h1>
       </div>
       <div className="main-playGround">
       <header className="App-header"> 
