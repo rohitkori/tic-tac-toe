@@ -1,11 +1,11 @@
 .board {
-    height: 380px;
-    width: 380px;
+    height: fit-content;
+    width: fit-content;
     /* background-color: #282c34; */
-    background-color: #fff;
+    background-color: rgb(53, 82, 245);
     border-radius: 5px;
     display: grid;
-    grid-template-columns: 120px 120px 120px;
-    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
     padding: 10px;
 }
