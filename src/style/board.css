@@ -2,7 +2,8 @@
     height: fit-content;
     width: fit-content;
     /* background-color: #282c34; */
-    background-color: rgb(53, 82, 245);
+    /* background-color: rgb(53, 82, 245); */
+    background-color: rgb(23, 41, 142);
     border-radius: 5px;
     display: grid;
     grid-template-columns: 100px 100px 100px;
